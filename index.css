@@ -1,0 +1,167 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   overflow-x: hidden;
+   
+}
+
+.searchBox{
+text-align: center;
+padding: 0em;
+background-color:transparent;
+align-items: center;
+max-width:100%;
+display: block;
+margin: 50px;
+
+}
+.searchBox:hover{
+transform: scale(1.01,1.01);
+
+
+}
+.herotext h1{
+text-align: center;
+text-transform: uppercase;
+text-shadow:1px 1px 1px ;
+padding-top: 100px;
+padding-bottom: 50px;
+color: rgb(0, 0, 0);
+justify-content: center;
+align-content: center;
+align-items: center;
+
+
+
+}
+.login{
+
+text-align: center;
+
+
+}
+.login .btn{
+color:white;
+background-color:rgba(0,0,255,0.7);
+width: 70px;
+height: 40px;
+box-sizing: border-box;
+border: 0px solid blue;
+border-radius: 30px;
+
+ 
+}
+.login .btn:hover{
+background-color:rgba(0,0,255,1);
+transform: scale(1.02,1.02);
+}
+
+.navbar ul{
+display: flex;
+ flex-flow: row;
+ justify-content: center;
+ list-style-type: none;
+}
+.navbar ul li a{
+
+color: white;
+text-decoration: none;
+
+}
+.navbar ul li{
+  padding: 1.5em;
+
+}
+.navbar ul li a:hover{
+color: yellow;
+
+}
+
+
+.gridContainer{
+display:grid;
+grid-template-columns: repeat(auto-fill, 200px);
+justify-content:space-evenly;
+align-content:center;
+grid-row-gap: 20px;
+align-items:center;
+padding: 6em;
+background-color:white;
+margin: 0px;
+
+}
+.gridContainer div{
+align-content: center;
+justify-content: center;
+text-align: center;
+align-items: center;
+box-shadow: 1px 1px 3px black;
+
+}
+.gridContainer .g{
+text-align: space-evenly;
+align-items: center;
+justify-content: center;
+}
+.gridContainer .g:hover{
+transform:scale(1.02,1.02);
+
+}
+.footer{
+display: flex;
+flex-flow: row;
+justify-content: space-around;
+align-items: center;
+align-content:center;
+background-color:brown;
+flex-wrap: wrap-reverse;
+color: white;
+padding: 2em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer address, ul {
+background-color:brown;
+
+}
+.footer ul{
+list-style-type: none;
+
+}
+.footer ul a{
+text-decoration:none;
+color:white;
+}
+.contactinfo{
+text-align: center;
+background-color: black;
+color: whitesmoke;
+padding: 1em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*body{
+background-image: url("wallpaper2you_227719.jpg");
+
+}*/
+.pagination{
+justify-content: center;
+display:flex;
+flex-flow: row;
+ padding: 30px;
+}
+.pagination a{
+ padding: 5px 10px;
+ text-decoration: none;
+ color: black;
+ float: right;
+ transition: background-color .3s;
+   }
+      
+   .pagination a.active {
+      background-color: dodgerblue;
+      color: white;
+   }
+   .pagination a:hover:not(.active)
+    {background-color: #ddd;}
